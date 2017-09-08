@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3066B9341DF20C440095F41A /* VKSdkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3066B9331DF20C440095F41A /* VKSdkFramework.framework */; };
+		306A1B031DF2A1FD00CA0B2E /* CodeProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A1B021DF2A1FD00CA0B2E /* CodeProcessing.swift */; };
 		30AEF4831DF1AF0900B115A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEF4821DF1AF0900B115A9 /* AppDelegate.swift */; };
-		30AEF4851DF1AF0900B115A9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEF4841DF1AF0900B115A9 /* FirstViewController.swift */; };
-		30AEF4871DF1AF0900B115A9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEF4861DF1AF0900B115A9 /* SecondViewController.swift */; };
 		30AEF48A1DF1AF0900B115A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AEF4881DF1AF0900B115A9 /* Main.storyboard */; };
 		30AEF48C1DF1AF0900B115A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30AEF48B1DF1AF0900B115A9 /* Assets.xcassets */; };
 		30AEF48F1DF1AF0900B115A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AEF48D1DF1AF0900B115A9 /* LaunchScreen.storyboard */; };
 		30AEF49A1DF1AF0900B115A9 /* QR_FriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEF4991DF1AF0900B115A9 /* QR_FriendsTests.swift */; };
+		30AEF4A51DF1AF2900B115A9 /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEF4A41DF1AF2900B115A9 /* ViewControllers.swift */; };
+		30AEF4A71DF1AF4D00B115A9 /* QRUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEF4A61DF1AF4D00B115A9 /* QRUtils.swift */; };
+		30B6FCD01DF1EC73009C575A /* AccountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B6FCCF1DF1EC73009C575A /* AccountData.swift */; };
+		30B6FCD31DF1F3B2009C575A /* Locksmith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B6FCD21DF1F3B2009C575A /* Locksmith.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3066B9331DF20C440095F41A /* VKSdkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VKSdkFramework.framework; path = Carthage/Build/iOS/VKSdkFramework.framework; sourceTree = "<group>"; };
+		306A1B021DF2A1FD00CA0B2E /* CodeProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeProcessing.swift; sourceTree = "<group>"; };
 		30AEF47F1DF1AF0900B115A9 /* QR Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR Friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30AEF4821DF1AF0900B115A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30AEF4841DF1AF0900B115A9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		30AEF4861DF1AF0900B115A9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		30AEF4891DF1AF0900B115A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30AEF48B1DF1AF0900B115A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30AEF48E1DF1AF0900B115A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +42,11 @@
 		30AEF4951DF1AF0900B115A9 /* QR FriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR FriendsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30AEF4991DF1AF0900B115A9 /* QR_FriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_FriendsTests.swift; sourceTree = "<group>"; };
 		30AEF49B1DF1AF0900B115A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30AEF4A41DF1AF2900B115A9 /* ViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
+		30AEF4A61DF1AF4D00B115A9 /* QRUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRUtils.swift; sourceTree = "<group>"; };
+		30B6FCCF1DF1EC73009C575A /* AccountData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountData.swift; sourceTree = "<group>"; };
+		30B6FCD21DF1F3B2009C575A /* Locksmith.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Locksmith.framework; path = Carthage/Build/iOS/Locksmith.framework; sourceTree = "<group>"; };
+		30B6FCD51DF1F5A1009C575A /* QR Friends.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "QR Friends.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3066B9341DF20C440095F41A /* VKSdkFramework.framework in Frameworks */,
+				30B6FCD31DF1F3B2009C575A /* Locksmith.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +75,7 @@
 				30AEF4811DF1AF0900B115A9 /* QR Friends */,
 				30AEF4981DF1AF0900B115A9 /* QR FriendsTests */,
 				30AEF4801DF1AF0900B115A9 /* Products */,
+				30B6FCD11DF1F3B2009C575A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +91,12 @@
 		30AEF4811DF1AF0900B115A9 /* QR Friends */ = {
 			isa = PBXGroup;
 			children = (
+				30B6FCD51DF1F5A1009C575A /* QR Friends.entitlements */,
 				30AEF4821DF1AF0900B115A9 /* AppDelegate.swift */,
-				30AEF4841DF1AF0900B115A9 /* FirstViewController.swift */,
-				30AEF4861DF1AF0900B115A9 /* SecondViewController.swift */,
+				30AEF4A41DF1AF2900B115A9 /* ViewControllers.swift */,
+				30AEF4A61DF1AF4D00B115A9 /* QRUtils.swift */,
+				306A1B021DF2A1FD00CA0B2E /* CodeProcessing.swift */,
+				30B6FCCF1DF1EC73009C575A /* AccountData.swift */,
 				30AEF4881DF1AF0900B115A9 /* Main.storyboard */,
 				30AEF48B1DF1AF0900B115A9 /* Assets.xcassets */,
 				30AEF48D1DF1AF0900B115A9 /* LaunchScreen.storyboard */,
@@ -99,6 +114,15 @@
 			path = "QR FriendsTests";
 			sourceTree = "<group>";
 		};
+		30B6FCD11DF1F3B2009C575A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3066B9331DF20C440095F41A /* VKSdkFramework.framework */,
+				30B6FCD21DF1F3B2009C575A /* Locksmith.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,6 +133,7 @@
 				30AEF47B1DF1AF0800B115A9 /* Sources */,
 				30AEF47C1DF1AF0800B115A9 /* Frameworks */,
 				30AEF47D1DF1AF0800B115A9 /* Resources */,
+				30B6FCD41DF1F3D2009C575A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -144,13 +169,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Roman Zhikharevich";
 				TargetAttributes = {
 					30AEF47E1DF1AF0800B115A9 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 3EY28ZJACP;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					30AEF4941DF1AF0900B115A9 = {
 						CreatedOnToolsVersion = 8.1;
@@ -199,14 +229,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30B6FCD41DF1F3D2009C575A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Locksmith.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/VKSdkFramework.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30AEF47B1DF1AF0800B115A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30AEF4871DF1AF0900B115A9 /* SecondViewController.swift in Sources */,
+				306A1B031DF2A1FD00CA0B2E /* CodeProcessing.swift in Sources */,
+				30AEF4A71DF1AF4D00B115A9 /* QRUtils.swift in Sources */,
+				30B6FCD01DF1EC73009C575A /* AccountData.swift in Sources */,
+				30AEF4A51DF1AF2900B115A9 /* ViewControllers.swift in Sources */,
 				30AEF4831DF1AF0900B115A9 /* AppDelegate.swift in Sources */,
-				30AEF4851DF1AF0900B115A9 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +316,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -288,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -315,6 +366,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -331,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -343,10 +395,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "QR Friends/QR Friends.entitlements";
 				DEVELOPMENT_TEAM = 3EY28ZJACP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "QR Friends/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.rzhikharevich.QR-Friends";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.QRFTeam.QR-Friends";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -356,10 +414,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "QR Friends/QR Friends.entitlements";
 				DEVELOPMENT_TEAM = 3EY28ZJACP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "QR Friends/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.rzhikharevich.QR-Friends";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.QRFTeam.QR-Friends";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -414,6 +478,7 @@
 				30AEF4A01DF1AF0900B115A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30AEF4A11DF1AF0900B115A9 /* Build configuration list for PBXNativeTarget "QR FriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +487,7 @@
 				30AEF4A31DF1AF0900B115A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
